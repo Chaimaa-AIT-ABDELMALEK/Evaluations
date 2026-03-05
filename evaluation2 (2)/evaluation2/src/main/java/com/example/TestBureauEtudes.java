@@ -32,7 +32,7 @@ public class TestBureauEtudes {
         t2.setProjet(p1);
 
         Tache t3 = new Tache();
-        t3.setNom("Développement");
+        t3.setNom("Developpement");
         t3.setDateDebutReelle(sdf.parse("10/04/2013"));
         t3.setDateFinReelle(sdf.parse("25/04/2013"));
         t3.setProjet(p1);
