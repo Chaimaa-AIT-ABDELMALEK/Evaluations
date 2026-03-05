@@ -108,7 +108,7 @@ public class Test {
         System.out.println("Résultat : " + nbHommes);
 
 
-        System.out.println("\n--- Détail des mariages de " + h1.getPrenom() + " " + h1.getNom() + " ---");
+        System.out.println("\n--- Detail des mariages de " + h1.getPrenom() + " " + h1.getNom() + " ---");
         hommeService.afficherMariagesHomme(h1.getId());
 
 
