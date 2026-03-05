@@ -26,7 +26,6 @@ public class MariageId implements Serializable {
         this.dateDebut = dateDebut;
     }
 
-    // Getters et setters
     public Homme getHomme() { return homme; }
     public void setHomme(Homme homme) { this.homme = homme; }
 
