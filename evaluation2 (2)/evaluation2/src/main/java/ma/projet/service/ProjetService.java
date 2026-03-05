@@ -56,6 +56,6 @@ public class ProjetService implements IDao<Projet> {
                     t.getDateFinReelle());
         });
 
-        s.close();   // 🔥 IMPORTANT : on ferme après utilisation
+        s.close();  
     }
 }
